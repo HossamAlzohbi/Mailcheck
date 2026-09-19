@@ -1,0 +1,7 @@
+results/
+reports/
+*.csv
+.venv/
+__pycache__/
+.idea/
+domains.txt

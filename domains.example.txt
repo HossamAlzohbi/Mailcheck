@@ -1,0 +1,4 @@
+# One domain per line. Lines starting with # are ignored.
+vg.no
+nrk.no
+kristiania.no
