@@ -35,13 +35,28 @@ and which DNS values to change, staged so the fix does not block the
 company's own mail.
 
 ## Usage
+ 
+Install the dependencies:
+```
 pip install dnspython reportlab
-
+```
+ 
+Scan a single domain:
+ 
+```
 python main.py example.no
-
+```
+ 
+Scan a single domain and write a PDF report:
+ 
+```
 python main.py example.no --report
-
+```
+Scan every domain listed in a file:
+ 
+```
 python main.py domains.txt --report
+```
 
 Batch mode writes a CSV to `results/` and one PDF per domain to
 `reports/`.
